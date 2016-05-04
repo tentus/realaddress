@@ -1,0 +1,21 @@
+{
+    "name": "tentus/realaddress",
+    "type": "library",
+    "description": "Add a set of real addresses to Faker",
+    "keywords": ["faker"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Thomas Holden"
+        }
+    ],
+    "require": {
+        "php": "^5.3.3|^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Faker\\Provider\\": "src/"
+        }
+    }
+}
+
